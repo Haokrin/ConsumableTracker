@@ -194,18 +194,6 @@ WEAPON_BUFFS = [
 ]
 
 # ---------------------------------------------------------------------------
-# ENGINEERING ITEMS
-# ---------------------------------------------------------------------------
-
-ENGINEERING = [
-    _entry(30427, 23827, "Gnomish Battle Goggles",        "Engineering", "cast"),
-    _entry(30458, 23829, "Goblin Rocket Launcher",        "Engineering", "cast"),
-    _entry(23506, 18984, "Goblin Sapper Charge",          "Engineering", "cast"),
-    _entry(30461, 30542, "Hyper-Vision Goggles",          "Engineering", "cast"),
-    _entry(54861, 41534, "Saronite Bomb",                 "Engineering", "cast"),
-]
-
-# ---------------------------------------------------------------------------
 # CONSOLIDATED LOOKUP  (spell_id → entry dict)
 # ---------------------------------------------------------------------------
 
@@ -217,7 +205,6 @@ ALL_CONSUMABLES: list[dict] = (
     + FOOD
     + SCROLLS
     + WEAPON_BUFFS
-    + ENGINEERING
 )
 
 # Primary lookup: spell_id → entry
