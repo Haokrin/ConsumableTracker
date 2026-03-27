@@ -122,35 +122,35 @@ POTIONS = [
 FOOD = [
     # ── TBC raid foods — spell IDs are the Well Fed BUFF AURA applied to the player ──
     # Melee / physical DPS foods
-    _entry(33272, 27657, "Roasted Clefthoof",             "Food"),  # +20 str +20 spi
-    _entry(33256, 27662, "Talbuk Steak",                  "Food"),  # +20 str +20 spi (alt aura)
-    _entry(33253, 27666, "Mok'Nathal Shortribs",          "Food"),  # +20 str +20 spi
-    _entry(33255, 27658, "Ravager Dog",                   "Food"),  # +20 agi +20 spi
-    _entry(33259, 27663, "Warp Burger",                   "Food"),  # +20 agi +20 spi
-    _entry(33261, 27662, "Warp Burger (alt)",             "Food"),  # alternate Well Fed aura for Warp Burger
-    _entry(33293, 27657, "Grilled Mudfish",               "Food"),  # +20 agi +20 spi  ← was missing
+    _entry(33287, 27658, "Roasted Clefthoof",             "Food"),  # +20 str +20 spi
+    _entry(33289, 27660, "Talbuk Steak",                  "Food"),  # +20 str +20 spi
+    _entry(38867, 31672, "Mok'Nathal Shortribs",          "Food"),  # +20 str +20 spi
+    _entry(33284, 27655, "Ravager Dog",                   "Food"),  # +20 agi +20 spi
+    _entry(33288, 27659, "Warp Burger",                   "Food"),  # +20 agi +20 spi
+    _entry(33293, 27664, "Grilled Mudfish",               "Food"),  # +20 agi +20 spi
     # Tanks
-    _entry(33296, 27699, "Spicy Crawdad",                 "Food"),  # +30 sta +20 spi  ← was missing
-    _entry(33286, 27693, "Baked Salmon",                  "Food"),  # +30 sta +20 spi
-    _entry(33265, 27667, "Feltail Delight",               "Food"),  # +20 sta +20 spi (budget tank food)
-    _entry(33268, 27664, "Blackened Sporefish",           "Food"),  # +20 sta +20 spi
+    _entry(33296, 27667, "Spicy Crawdad",                 "Food"),  # +30 sta +20 spi
+    _entry(33286, 27657, "Blackened Basilisk",            "Food"),  # +23 spell dmg +20 spi
+    _entry(33291, 27662, "Feltail Delight",               "Food"),  # +20 sta +20 spi (budget tank food)
+    _entry(33292, 27663, "Blackened Sporefish",           "Food"),  # +20 sta +20 spi
+    _entry(33279, 27651, "Buzzard Bites",                 "Food"),  # +20 sta +20 spi (budget tank food)
     # Casters / healers — spell damage
-    _entry(33257, 27665, "Crunchy Serpent",               "Food"),  # +23 spell dmg +20 spi
-    _entry(33271, 27659, "Blackened Basilisk",            "Food"),  # +23 spell dmg +20 spi
-    _entry(33282, 27691, "Poached Bluefish",              "Food"),  # +23 spell dmg +20 spi
+    _entry(38868, 31673, "Crunchy Serpent",               "Food"),  # +23 spell dmg +20 spi
+    _entry(33294, 27665, "Poached Bluefish",              "Food"),  # +23 spell dmg +20 spi
     # Casters — spell crit
-    _entry(43707, 33825, "Skullfish Soup",                "Food"),  # +20 spell crit +20 spi  ← was missing
+    _entry(43707, 33825, "Skullfish Soup",                "Food"),  # +20 spell crit +20 spi
     # Healers
-    _entry(33269, 27660, "Golden Fish Sticks",            "Food"),  # +44 healing +20 spi
-    _entry(46898, 27763, "Fisherman's Feast",             "Food"),  # +30 sta (easy-access healer/tank food)
+    _entry(33295, 27666, "Golden Fish Sticks",            "Food"),  # +23 spell dmg +20 spi
+    _entry(42302, 33052, "Fisherman's Feast",             "Food"),  # +30 sta (easy-access healer/tank food)
+    _entry(42305, 33053, "Hot Buttered Trout",            "Food"),  # restores HP and mana
     # Hit rating
-    _entry(33263, 27655, "Spicy Hot Talbuk",              "Food"),  # +20 hit rating +20 spi
+    _entry(43765, 33872, "Spicy Hot Talbuk",              "Food"),  # +20 hit rating +20 spi
     # Spirit / regen
-    _entry(33284, 27692, "Stewed Trout",                  "Food"),  # +20 spi +20 stam
+    _entry(42296, 33048, "Stewed Trout",                  "Food"),  # +20 spi +20 stam
     # All-resist
-    _entry(33280, 27690, "Broiled Bloodfin",              "Food"),  # +8 all resistances
+    _entry(43761, 33867, "Broiled Bloodfin",              "Food"),  # +8 all resistances
     # Novelty / proc
-    _entry(39545, 27853, "Stormchops",                    "Food"),  # lightning proc, +8 nature dmg  ← was missing
+    _entry(43758, 33866, "Stormchops",                    "Food"),  # lightning proc, +8 nature dmg
     # Classic foods still viable in TBC
     _entry(24799, 20452, "Smoked Desert Dumplings",       "Food"),  # +20 str
     _entry(18192, 13931, "Blessed Sunfruit",              "Food"),  # +10 str
